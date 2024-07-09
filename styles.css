@@ -1,0 +1,68 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #000000;
+}
+
+.car {
+  margin-bottom: 50px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.car:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  color: #fff;
+  margin-top: 0;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+p {
+  color: #333;
+  padding: 10px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+/* 追加のスタイル */
+
+/* タイトルの背景色 */
+.car h2 {
+  background: linear-gradient(45deg, #8d8a8a, #8d8a8a);
+}
+
+/* タイトルのホバー時の背景色 */
+.car:hover h2 {
+  background: linear-gradient(45deg, #ff0404, #ff77d8);
+}
+
+/* パラグラフの背景色 */
+.car p {
+  background: #f9f9f9;
+}
+
+/* 画像の枠線 */
+.car img {
+  border: 3px solid #ddd;
+  border-radius: 5px;
+}
+
+/* 画像のホバー時の影 */
+.car img:hover {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
